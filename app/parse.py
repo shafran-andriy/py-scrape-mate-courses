@@ -1,10 +1,10 @@
 from dataclasses import dataclass
-import logging
 from bs4 import BeautifulSoup
 import requests
 
 
 BASE_URL = "https://mate.academy/"
+
 
 @dataclass
 class Course:
